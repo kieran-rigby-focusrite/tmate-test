@@ -1,0 +1,9 @@
+name: tmate Example
+on: push
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: mxschmitt/action-tmate@v1
+      
